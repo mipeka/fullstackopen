@@ -1,0 +1,14 @@
+title:0.6: Uusi muistiinpano
+
+note over selain:
+koodi luo muistiinpanon, 
+lisää sen muistiinpanojen listalle 
+ja piirtää ruudun uudestaan
+end note
+selain->selain:
+note over selain,palvelin:
+Lopuksi palvelimelle lähetetään muistiinpanon sisältö,
+ja palvelin kuittaa tämän onnistuneeksi.
+end note
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: 201: {"message":"note created"}
