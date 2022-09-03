@@ -1,3 +1,3 @@
-Readme file for Fullstackopen 2022
-What's this about
+# Readme file for Fullstackopen 2022
+
 Repository contains all the tasks that are included in the course.
